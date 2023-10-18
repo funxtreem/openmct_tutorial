@@ -1,4 +1,4 @@
 #!/bin/bash
 #hostname=$(curl http://169.254.169.254/metadata/v1/hostname)
 #docker run -d -p 80:8080 --name openmct-"$hostname" mvkaran/openmct:"$hostname"
-docker run -d -p 80:8080 --name openmct_tutorial-"myhostname" funxtreem/openmct_tutorial:"myhostname"
+docker run -d -p 80:8080 --name openmct_tutorial-"main" funxtreem/openmct_tutorial:"main"
